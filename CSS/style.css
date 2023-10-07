@@ -28,11 +28,28 @@ h1 {
     font-family:"Bebas Neue", sans-serif !important;
     text-align: center;
 }
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size:4em;
+    }
+}
 
 
 
 
 /*menù*/
+@media only screen and (max-width: 480px) {
+    nav ul li {
+        font-size: 0.4em;
+        padding: 2%;
+    }
+}
+@media only screen and (max-width: 480px) {
+    nav ul li a {
+        font-size: 0.4em;
+        padding: 2%;
+    }
+}
 nav ul { 
     display: block;
 
