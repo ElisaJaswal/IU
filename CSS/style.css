@@ -1,0 +1,594 @@
+/*index*/
+
+
+body {
+    padding:0px !important;
+    font-family: Libre Baskerville, serif !important;
+}
+
+.logo_header { 
+    width: 15%;
+    float: left;
+}
+
+header {
+    background-color:#603584;
+    color:#DFF355;
+    font-family: "Bebas Neue", sans-serif !important;
+    text-align: center;
+}
+
+header, section {
+    padding: 4% 5% 1% 5% !important;
+    margin: 0% !important;
+}
+
+h1 {
+    font-size: 7em !important;
+    font-family:"Bebas Neue", sans-serif !important;
+    text-align: center;
+}
+
+
+
+
+/*menù*/
+nav ul { 
+    display: block;
+
+}
+
+nav ul li{ 
+    padding: 1% 1% 1% 1%;
+    font-size: 1.7em;
+}
+
+nav ul li a{ 
+    color: #DFF355;
+    text-decoration: none;
+    
+} 
+nav ul li { 
+    display: inline-block;
+    position: relative;
+    text-align: center;
+} 
+
+nav ul li:hover ul{
+    display:block;
+} 
+
+nav ul li li{ 
+    position: relative;
+    float: none;
+    width: 100%;
+    border: none;
+} 
+
+nav ul ul {
+    display: block; 
+    position: absolute; 
+}  
+nav ul li:hover ul{
+    display:block;
+} 
+
+nav ul li li{ 
+    position: relative;
+    float: none;
+    width: 100%;
+    border: none;
+} 
+
+nav ul ul {
+    display: none; position: absolute; top: 100%; left: 0;
+} 
+
+
+nav ul ul li a {
+    font-size: 1.5rem; 
+    
+} 
+
+nav ul ul li:first-child a {
+    border-top: none;
+    border-bottom: none;
+} 
+
+nav ul li:hover a{ 
+    transition: 0.5s;
+} 
+
+.home { 
+    text-align: center;
+}
+
+
+#volantino { 
+    margin-left: 0;
+    margin-right: 0;
+    height: 600px;
+    margin-bottom: 100px;
+    width:auto;
+    text-align: right;
+    float: left;
+}
+
+@media only screen and (max-width: 480px) {
+    #volantino {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+
+
+/*cards home*/ 
+.container-fluid { 
+    background-color: #8064A1;
+}
+
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 4em !important;
+        text-align: center !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    h2 {
+        font-size: 3.0em !important;
+        text-align: center !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+  .container-fluid {
+    font-size: 0.4em;
+    text-align: center !important;
+    margin-left: 1% !important;
+    margin-right: 1% !important;
+    }   
+}
+
+
+.card-body { 
+    text-align: center;
+    font-family: "Libre Baskerville" , serif;
+    font-size: 1em;
+    text-decoration: none !important;
+    color: #603584 !important;
+    background-color: #a384c6;
+}
+
+.spotifylinkcard { 
+    color: #603584;
+    text-decoration: none;
+}
+.youtubelinkcard { 
+    color: #603584;
+    text-decoration: none;
+}
+
+.card { 
+    width: 80%;
+    height: auto;
+
+}
+@media only screen and (max-width: 480px) {
+    .card {
+    margin-top: 7%;
+    margin-bottom: 11%; 
+    padding: 0%;
+    text-decoration: none !important;   
+    width: 45%;
+    }
+}
+
+  @media only screen and (max-width: 480px) {
+    .card-text {
+    margin-top: 7%;
+    margin-bottom: 11%; 
+    text-decoration: none !important;   
+    font-size: 1.3em !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .home {
+        font-size: 0.4em !important;
+        text-align: center !important;
+    }
+}
+
+
+
+
+
+
+/*about*/
+
+.about { 
+    
+    font-family: Libre Baskerville, serif !important;
+    padding: 20px 20px 20px 20px;
+    margin: 130px 150px 130px 150px;
+    text-align: justify;
+    font-weight: 300;
+    background-color: #8064A1;
+    
+}
+
+.about h2 { 
+    font-size: 3.5em;
+    color: #DFF355 !important;
+}
+@media only screen and (max-width: 480px) {
+    .about h2 {
+        font-size: 4.0em !important;
+        text-align: center !important;
+    }
+}
+
+.about h3 { 
+    font-size: 3em;
+    color: #DFF355;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+@media only screen and (max-width: 480px) {
+    .abouth3 {
+        font-size: 3em !important;
+        text-align: left !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    article {
+        font-size: 0.4em !important;
+        margin: 5% 10% 5% 10% !important;
+        padding: 2% 4% 2% 4% !important;
+    }
+}
+
+
+
+
+
+
+/*musica*/
+
+.musica h2{ 
+    color: #DFF355;
+}
+
+/*cards musica*/
+
+div .row { 
+    text-align: center;
+
+}
+.container-fluid2 { 
+    background-color: #8064A1;
+    margin-top: 5%;
+    margin-bottom: 6%;
+}
+
+.card-body2 { 
+    text-align: center;
+    font-family: "Libre Baskerville" , serif;
+    font-size: 1.5em;
+    text-decoration: none !important;
+    color: #603584 !important;
+    background-color: #a384c6;
+}
+
+.spotifylinkcard2 { 
+    color: #603584;
+    text-decoration: none;
+}
+.youtubelinkcard2 { 
+    color: #603584;
+    text-decoration: none;
+    
+}
+
+.card2 { 
+    width: 80%;
+    height: auto;
+    padding-left: 10%;
+
+}
+
+.card-img-top2 { 
+    text-align: center;
+    width: 90%;
+}
+
+
+h2{ 
+    text-align: center;
+}
+
+.tit1 { 
+    text-align: center;
+    font-size: 4em;
+    color: #DFF355;
+    font-family: Bebas Neue;
+}
+
+.container { 
+    color: #DFF355;
+    font-weight: bold;
+    background-color: #603584
+}
+
+.homeyt { 
+    float: left;
+}
+
+.homesf { 
+    float: right;
+}
+
+#homeytlogo { 
+    text-align: left;
+    height: 250px
+}
+
+#homesflogo { 
+    text-align: right;
+    height: 300px;
+}
+
+.col { 
+    margin-left: 2.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*musica*/
+.anteprima h2 { 
+    color: #DFF355;
+    font-weight: bold;
+    background-color: #603584;
+}
+
+
+.spotifybutton1 { 
+    float: left;
+    margin-top: -3%;
+}
+
+
+.youtubebutton1 {
+    float: right;
+    margin-top: -3%;
+}
+  
+
+
+
+
+/*eventi*/
+.events { 
+    background-color: #8064A1;
+}
+
+@media only screen and (max-width: 480px) {
+    #città {
+        width: 200%;
+        height: auto;
+        vertical-align: middle;
+        
+    }
+}
+
+.card text {
+    position: relative;
+    padding: 5% 10% 5% 10%;
+    margin-top: 2% 0% 0% 5%;
+    
+}  
+@media only screen and (max-width: 480px) {
+    .card text {
+        position: relative;
+        margin: 10% 15% 10% 15% !important;
+        font-size: 3em !important;
+        text-align: center !important;
+    }
+}
+
+.card-title { 
+    color: #DFF355;
+    font-size: 7em;
+    text-align: center;
+    margin-top: 110px;
+
+}
+@media only screen and (max-width: 480px) {
+    .card-title {
+        font-size: 4.5em !important;
+        text-align: center !important;
+        border-right: 10%;
+    }
+}
+
+.buttoncontainer {
+    display: block;
+    margin-left: 44%;
+    width: 140px;
+}
+@media only screen and (max-width: 480px) {
+    .buttoncontainer {
+        display: block;
+        text-align: center !important;
+    }
+}
+
+.btn btn-primary { 
+    font-family: "Bebas Neue";
+}
+
+@media only screen and (max-width: 480px) {
+    .btn btn-primary .buttoncontainer {
+        margin-left: 0%;
+        font-size: 3em !important;
+        text-align: left !important;
+    }
+}
+
+.btn { 
+    background: #DFF355 !important;
+    border-color: #603584 !important;
+    color: #603584 !important;
+    font-weight: bold !important;
+}
+
+.btn { 
+    vertical-align: middle;
+    text-align: center;
+}
+@media only screen and (max-width: 480px) {
+    .btn {
+        font-size: 3em !important;
+        vertical-align: middle;
+        text-align: center;
+    }
+}
+
+
+
+
+/*biglietti*/
+.biglietti { 
+    background-color: #8064A1;
+    text-align: center !important;
+}
+.prbg7 { 
+    text-align: center;
+}
+
+
+
+.biglietti h2{ 
+    color: #DFF355;
+    font-family: Bebas Neue, sans-serif;
+    font-size: 4em;
+}
+
+.prevendita { 
+    text-decoration: none;
+    color: #DFF355;
+}
+
+.biglietto { 
+    text-decoration: none;
+    color: #DFF355;
+}
+
+
+/*festival*/
+.festival { 
+    text-align: center;
+}
+
+#festival1 { 
+    height: 800px;
+    
+}
+
+@media only screen and (max-width: 480px) {
+    .festival {
+        width: 20%;
+        height: auto;
+        margin: 5% 5% 5% 5%;
+    }
+}
+
+
+
+
+
+/*festival*/
+ footer { 
+    background-color:#4A9B72;
+    padding: 0px !important;
+    margin: 0px !important;
+    text-align: end;
+}
+@media only screen and (max-width: 480px) {
+    footer {
+        font-size: 0.3em !important;
+        text-align: center !important;
+    }
+}
+
+footer section p{
+    color: #DFF355;
+    margin-bottom: 0%;
+} 
+
+
+
+.fa-brands { 
+    color: #603584;
+    font-size: 2.5em;
+}
+@media only screen and (max-width: 480px) {
+    .fa-brands {
+        font-size: 0.3em !important;
+        text-align: center !important;
+    }
+}
+
+.fa-regular fa-instagram { 
+    color: #603584;
+    font-size: 2em;
+}
+@media only screen and (max-width: 480px) {
+    .fa-regular {
+        font-size: 0.4 !important;
+        text-align: center !important;
+    }
+}
+
+
+
+
+
+.documentazione { 
+    text-align: justify;
+    color: #603584;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.documentazione2 { 
+    text-align: justify;
+    color: black;
+    background-color: #a384c6;
+}
+
+.documentazione2 h2 { 
+    color: #DFF355;
+}
+
+.documentazione2 h3 { 
+    color:#1f6f47;
+    font-weight: bold;
+}
