@@ -572,7 +572,7 @@ footer section p{
 
 
 .documentazione { 
-    margin: 10% 10% 10% 10%;
+    
     text-align: justify;
     color: #603584;
     font-size: 1em;
@@ -580,6 +580,7 @@ footer section p{
 }
 
 .documentazione2 { 
+    margin: 10% 10% 10% 10%;
     text-align: justify;
     color: black;
     background-color: #a384c6;
