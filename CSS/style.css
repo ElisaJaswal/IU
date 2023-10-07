@@ -37,13 +37,13 @@ h1 {
 }
 @media only screen and (max-width: 480px) {
     h2 {
-        font-size: 3em !important;
+        font-size: 2em !important;
         padding: 0.3% !important;
     }
 }
 @media only screen and (max-width: 480px) {
     .home p {
-        font-size: 1.7em !important;
+        font-size: 1em !important;
         padding: 0.3% !important;
     }
 }
