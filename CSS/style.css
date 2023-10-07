@@ -584,6 +584,11 @@ footer section p{
     color: black;
     background-color: #a384c6;
 }
+@media only screen and (max-width: 480px) {
+    .documentazione2  {
+        margin:0%;
+    }
+}
 
 
 
