@@ -586,7 +586,7 @@ footer section p{
 }
 @media only screen and (max-width: 480px) {
     .documentazione2  {
-        margin:0%;
+        margin:0% important;
     }
 }
 
