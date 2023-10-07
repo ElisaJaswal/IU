@@ -520,7 +520,7 @@ h2{
 
 @media only screen and (max-width: 480px) {
     .festival1 {
-        width: 80%;
+        width: 70%;
         height: auto;
         margin: 5% 5% 5% 5%;
     }
@@ -530,7 +530,7 @@ h2{
 
 
 
-/*festival*/
+/*footer*/
  footer { 
     background-color:#4A9B72;
     padding: 0px !important;
