@@ -29,24 +29,7 @@ h1 {
     text-align: center;
 }
 
-@media only screen and (max-width: 480px) {
-    h1 {
-        font-size: 4em !important;
-        padding: 0.3% !important;
-    }
-}
-@media only screen and (max-width: 480px) {
-    h2 {
-        font-size: 2em !important;
-        padding: 0.3% !important;
-    }
-}
-@media only screen and (max-width: 480px) {
-    p {
-        font-size: 1em !important;
-        padding: 0.3% !important;
-    }
-}
+
 
 
 
