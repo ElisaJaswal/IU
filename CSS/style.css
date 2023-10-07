@@ -31,8 +31,8 @@ h1 {
 
 @media only screen and (max-width: 480px) {
     h1 {
-        font-size: 4em;
-        padding: 0.3%;
+        font-size: 4em !important;
+        padding: 0.3% !important;
     }
 }
 @media only screen and (max-width: 480px) {
@@ -42,7 +42,7 @@ h1 {
     }
 }
 @media only screen and (max-width: 480px) {
-    .home p {
+    p {
         font-size: 1em !important;
         padding: 0.3% !important;
     }
