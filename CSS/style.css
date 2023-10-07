@@ -572,7 +572,6 @@ footer section p{
 
 
 .documentazione { 
-    
     text-align: justify;
     color: #603584;
     font-size: 1em;
@@ -580,17 +579,48 @@ footer section p{
 }
 
 .documentazione2 { 
-    margin: 10% 10% 10% 10%;
+    
     text-align: justify;
     color: black;
     background-color: #a384c6;
 }
+@media only screen and (max-width: 480px) {
+    .documentazione2 {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
 
 .documentazione2 h2 { 
     color: #DFF355;
+}
+@media only screen and (max-width: 480px) {
+    .documentazione2 h2 {
+        font-size: 2.5em !important;
+        text-align: center !important;
+    }
 }
 
 .documentazione2 h3 { 
     color:#1f6f47;
     font-weight: bold;
+}
+@media only screen and (max-width: 480px) {
+    .documentazione2 h3 {
+        font-size: 2 !important;
+    }
+}
+
+.testodocumentazione { 
+    margin: 5% 8% 5% 8%;
+    font-size: 1.1em;
+}
+
+@media only screen and (max-width: 480px) {
+    .testodocumentazione {
+        font-size: 1.4 !important;
+        text-align: justify !important;
+        
+    }
 }
