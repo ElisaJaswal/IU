@@ -628,6 +628,7 @@ footer section p{
 @media only screen and (max-width: 480px) {
     .immaginedocumentazione {
         width: 90%;
+        height:auto;
         
     }
 }
