@@ -585,11 +585,11 @@ footer section p{
     background-color: #a384c6;
 }
 @media only screen and (max-width: 480px) {
-    .documentazione2  {
-        margin:0% important;
+    .documentazione2 {
+        margin-left: 5%;
+        margin-right: 5%;
     }
 }
-
 
 
 .documentazione2 h2 { 
@@ -597,7 +597,7 @@ footer section p{
 }
 @media only screen and (max-width: 480px) {
     .documentazione2 h2 {
-        font-size: 2.0em !important;
+        font-size: 2em !important;
         text-align: center !important;
     }
 }
@@ -608,7 +608,7 @@ footer section p{
 }
 @media only screen and (max-width: 480px) {
     .documentazione2 h3 {
-        font-size: 1.5em !important;
+        font-size: 2 !important;
     }
 }
 
@@ -628,7 +628,11 @@ footer section p{
 @media only screen and (max-width: 480px) {
     .immaginedocumentazione {
         width: 90%;
-        height:auto;
+        height: auto;
         
     }
 }
+
+
+
+
