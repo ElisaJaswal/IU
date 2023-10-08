@@ -252,7 +252,7 @@ nav ul li:hover a{
 }
 
 .about h3 { 
-    font-size: 3em;
+    font-size: 2.5em;
     color: #DFF355;
     margin-top: 50px;
     margin-bottom: 30px;
@@ -266,7 +266,7 @@ nav ul li:hover a{
 
 @media only screen and (max-width: 480px) {
     article {
-        font-size: 1.3em !important;
+        font-size: 0.7em !important;
         margin: 5% 10% 5% 10% !important;
         padding: 2% 4% 2% 4% !important;
     }
